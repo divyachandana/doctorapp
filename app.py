@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import httpx
 import json
-# from model import fetch_patient_data, fetch_patient_category_data, prepare_prompt, prepare_category_prompt
 from prompt import Augment
 import wandb
 from gpu_metrics import get_gpu_metrics
@@ -117,8 +116,8 @@ async def generate_summary(prompt):
         # "model" : "meditron",
         # "model" : "medllama2",
         # "model": "llama3",
-        # "model": "llama3.1",
-        "model": "llama3.1:70b-instruct-q4_0",
+        "model": "llama3.1",
+        # "model": "llama3.1:70b-instruct-q4_0",
         "prompt": prompt,
         "stream": True,
     }
