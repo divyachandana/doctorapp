@@ -1,0 +1,1225 @@
+[
+    {
+      "_index": "patients",
+      "_id": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+      "_score": 1,
+      "_source": {
+        "patient_info": {
+          "ID": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+          "BIRTHDATE": "1963-09-14",
+          "DEATHDATE": null,
+          "SSN": "999-72-1236",
+          "DRIVERS": "S99979231",
+          "PASSPORT": "X32813674X",
+          "PREFIX": "Mr.",
+          "FIRST": "Chloe306",
+          "LAST": "Miller531",
+          "SUFFIX": null,
+          "MAIDEN": null,
+          "MARITAL": "M",
+          "RACE": "white",
+          "ETHNICITY": "italian",
+          "GENDER": "M",
+          "BIRTHPLACE": "Lancaster MA US",
+          "ADDRESS": "98195 Turcotte Garden Apt. 735 Boston MA 02123 US"
+        },
+        "allergies": [],
+        "careplans": [
+          {
+            "ID": "5388e0c3-f8b3-4531-937e-7980e43b1cd5",
+            "START": "1994-01-09",
+            "STOP": "1994-02-19",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 872781000000100,
+            "DESCRIPTION": "Musculoskeletal care",
+            "REASONCODE": 39848009,
+            "REASONDESCRIPTION": "Whiplash injury to neck"
+          },
+          {
+            "ID": "5388e0c3-f8b3-4531-937e-7980e43b1cd5",
+            "START": "1994-01-09",
+            "STOP": "1994-02-19",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 266694003,
+            "DESCRIPTION": "Heat therapy",
+            "REASONCODE": 39848009,
+            "REASONDESCRIPTION": "Whiplash injury to neck"
+          },
+          {
+            "ID": "5388e0c3-f8b3-4531-937e-7980e43b1cd5",
+            "START": "1994-01-09",
+            "STOP": "1994-02-19",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 183051005,
+            "DESCRIPTION": "Recommendation to rest",
+            "REASONCODE": 39848009,
+            "REASONDESCRIPTION": "Whiplash injury to neck"
+          },
+          {
+            "ID": "93087502-2f88-4dd0-ab58-14a0d9377f94",
+            "START": "2001-07-03",
+            "STOP": null,
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 872781000000100,
+            "DESCRIPTION": "Musculoskeletal care",
+            "REASONCODE": 201834006,
+            "REASONDESCRIPTION": "Localized  primary osteoarthritis of the hand"
+          },
+          {
+            "ID": "93087502-2f88-4dd0-ab58-14a0d9377f94",
+            "START": "2001-07-03",
+            "STOP": null,
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 872781000000100,
+            "DESCRIPTION": "Joint mobility exercises",
+            "REASONCODE": 201834006,
+            "REASONDESCRIPTION": "Localized  primary osteoarthritis of the hand"
+          },
+          {
+            "ID": "93087502-2f88-4dd0-ab58-14a0d9377f94",
+            "START": "2001-07-03",
+            "STOP": null,
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 266694003,
+            "DESCRIPTION": "Heat therapy",
+            "REASONCODE": 201834006,
+            "REASONDESCRIPTION": "Localized  primary osteoarthritis of the hand"
+          },
+          {
+            "ID": "3eed3c32-a61e-4ef9-81d6-2fd0a2ab7d10",
+            "START": "2016-10-08",
+            "STOP": "2016-11-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "9001d616-75ae-4c26-9956-e073255712bc",
+            "CODE": 225358003,
+            "DESCRIPTION": "Wound care",
+            "REASONCODE": 284549007,
+            "REASONDESCRIPTION": "Laceration of hand"
+          },
+          {
+            "ID": "3eed3c32-a61e-4ef9-81d6-2fd0a2ab7d10",
+            "START": "2016-10-08",
+            "STOP": "2016-11-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "9001d616-75ae-4c26-9956-e073255712bc",
+            "CODE": 385949008,
+            "DESCRIPTION": "Dressing change management",
+            "REASONCODE": 284549007,
+            "REASONDESCRIPTION": "Laceration of hand"
+          },
+          {
+            "ID": "3eed3c32-a61e-4ef9-81d6-2fd0a2ab7d10",
+            "START": "2016-10-08",
+            "STOP": "2016-11-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "9001d616-75ae-4c26-9956-e073255712bc",
+            "CODE": 439830001,
+            "DESCRIPTION": "Behavior to prevent infection",
+            "REASONCODE": 284549007,
+            "REASONDESCRIPTION": "Laceration of hand"
+          }
+        ],
+        "conditions": [
+          {
+            "START": "2001-07-03",
+            "STOP": null,
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 201834006,
+            "DESCRIPTION": "Localized  primary osteoarthritis of the hand"
+          },
+          {
+            "START": "2016-01-28",
+            "STOP": "2016-02-08",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "f205d765-6df1-41a7-8141-f6bf2e8dfee0",
+            "CODE": 195662009,
+            "DESCRIPTION": "Acute viral pharyngitis (disorder)"
+          },
+          {
+            "START": "2016-10-08",
+            "STOP": "2016-11-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "9001d616-75ae-4c26-9956-e073255712bc",
+            "CODE": 284549007,
+            "DESCRIPTION": "Laceration of hand"
+          }
+        ],
+        "encounters": [
+          {
+            "ID": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "DATE": "2012-03-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "CODE": 185349003,
+            "DESCRIPTION": "Outpatient Encounter",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "86195ec5-e383-41ac-85a6-7fe64b2b4eaf",
+            "DATE": "2013-09-14",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "CODE": 185349003,
+            "DESCRIPTION": "Encounter for 'check-up'",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "CODE": 185349003,
+            "DESCRIPTION": "Outpatient Encounter",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "8f11cfc2-bdc0-42a1-ab0b-988ee5cb177a",
+            "DATE": "2015-07-02",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "CODE": 185349003,
+            "DESCRIPTION": "Outpatient Encounter",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "f205d765-6df1-41a7-8141-f6bf2e8dfee0",
+            "DATE": "2016-01-29",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "CODE": 185345009,
+            "DESCRIPTION": "Encounter for symptom",
+            "REASONCODE": 195662009,
+            "REASONDESCRIPTION": "Acute viral pharyngitis (disorder)"
+          },
+          {
+            "ID": "301d2e23-6edb-4fbd-bcda-10e3758abe16",
+            "DATE": "2016-06-24",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "CODE": 185349003,
+            "DESCRIPTION": "Outpatient Encounter",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "9001d616-75ae-4c26-9956-e073255712bc",
+            "DATE": "2016-10-08",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "CODE": 50849002,
+            "DESCRIPTION": "Emergency room admission",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "0d187a28-ca6a-4cf3-8e87-af2d7f4cc437",
+            "DATE": "2017-05-20",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "CODE": 185349003,
+            "DESCRIPTION": "Outpatient Encounter",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          }
+        ],
+        "immunizations": [
+          {
+            "DATE": "2012-03-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 140,
+            "DESCRIPTION": "Influenza  seasonal  injectable  preservative free"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": 140,
+            "DESCRIPTION": "Influenza  seasonal  injectable  preservative free"
+          },
+          {
+            "DATE": "2015-07-02",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8f11cfc2-bdc0-42a1-ab0b-988ee5cb177a",
+            "CODE": 140,
+            "DESCRIPTION": "Influenza  seasonal  injectable  preservative free"
+          },
+          {
+            "DATE": "2015-07-02",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8f11cfc2-bdc0-42a1-ab0b-988ee5cb177a",
+            "CODE": 113,
+            "DESCRIPTION": "Td (adult) preservative free"
+          },
+          {
+            "DATE": "2016-06-24",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "301d2e23-6edb-4fbd-bcda-10e3758abe16",
+            "CODE": 140,
+            "DESCRIPTION": "Influenza  seasonal  injectable  preservative free"
+          },
+          {
+            "DATE": "2017-05-20",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "0d187a28-ca6a-4cf3-8e87-af2d7f4cc437",
+            "CODE": 140,
+            "DESCRIPTION": "Influenza  seasonal  injectable  preservative free"
+          }
+        ],
+        "medications": [
+          {
+            "START": "2001-07-03",
+            "STOP": null,
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": 849727,
+            "DESCRIPTION": "Naproxen sodium 220 MG [Aleve]",
+            "REASONCODE": 201834006,
+            "REASONDESCRIPTION": "Localized  primary osteoarthritis of the hand"
+          },
+          {
+            "START": "2016-10-09",
+            "STOP": "2016-11-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "9001d616-75ae-4c26-9956-e073255712bc",
+            "CODE": 849574,
+            "DESCRIPTION": "Naproxen sodium 220 MG Oral Tablet",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          }
+        ],
+        "observations": [
+          {
+            "DATE": "2012-03-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": "8302-2",
+            "DESCRIPTION": "Body Height",
+            "VALUE": "163.33",
+            "UNITS": "cm"
+          },
+          {
+            "DATE": "2012-03-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": "29463-7",
+            "DESCRIPTION": "Body Weight",
+            "VALUE": "125.29",
+            "UNITS": "kg"
+          },
+          {
+            "DATE": "2012-03-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": "39156-5",
+            "DESCRIPTION": "Body Mass Index",
+            "VALUE": "46.97",
+            "UNITS": "kg/m2"
+          },
+          {
+            "DATE": "2012-03-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": "8480-6",
+            "DESCRIPTION": "Systolic Blood Pressure",
+            "VALUE": "118.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2012-03-05",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "c11ffa25-5921-4227-8905-45a7bd1d5874",
+            "CODE": "8462-4",
+            "DESCRIPTION": "Diastolic Blood Pressure",
+            "VALUE": "81.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "8302-2",
+            "DESCRIPTION": "Body Height",
+            "VALUE": "163.33",
+            "UNITS": "cm"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "29463-7",
+            "DESCRIPTION": "Body Weight",
+            "VALUE": "126.47",
+            "UNITS": "kg"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "39156-5",
+            "DESCRIPTION": "Body Mass Index",
+            "VALUE": "47.41",
+            "UNITS": "kg/m2"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "8480-6",
+            "DESCRIPTION": "Systolic Blood Pressure",
+            "VALUE": "118.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "8462-4",
+            "DESCRIPTION": "Diastolic Blood Pressure",
+            "VALUE": "88.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "2093-3",
+            "DESCRIPTION": "Total Cholesterol",
+            "VALUE": "198.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "2571-8",
+            "DESCRIPTION": "Triglycerides",
+            "VALUE": "119.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "18262-6",
+            "DESCRIPTION": "Low Density Lipoprotein Cholesterol",
+            "VALUE": "103.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2014-07-10",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8547399e-ae1a-4c87-b562-171dcd14c9db",
+            "CODE": "2085-9",
+            "DESCRIPTION": "High Density Lipoprotein Cholesterol",
+            "VALUE": "71.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2015-07-02",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8f11cfc2-bdc0-42a1-ab0b-988ee5cb177a",
+            "CODE": "8302-2",
+            "DESCRIPTION": "Body Height",
+            "VALUE": "163.33",
+            "UNITS": "cm"
+          },
+          {
+            "DATE": "2015-07-02",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8f11cfc2-bdc0-42a1-ab0b-988ee5cb177a",
+            "CODE": "29463-7",
+            "DESCRIPTION": "Body Weight",
+            "VALUE": "126.47",
+            "UNITS": "kg"
+          },
+          {
+            "DATE": "2015-07-02",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8f11cfc2-bdc0-42a1-ab0b-988ee5cb177a",
+            "CODE": "39156-5",
+            "DESCRIPTION": "Body Mass Index",
+            "VALUE": "47.41",
+            "UNITS": "kg/m2"
+          },
+          {
+            "DATE": "2015-07-02",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8f11cfc2-bdc0-42a1-ab0b-988ee5cb177a",
+            "CODE": "8480-6",
+            "DESCRIPTION": "Systolic Blood Pressure",
+            "VALUE": "113.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2015-07-02",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "8f11cfc2-bdc0-42a1-ab0b-988ee5cb177a",
+            "CODE": "8462-4",
+            "DESCRIPTION": "Diastolic Blood Pressure",
+            "VALUE": "88.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2016-01-29",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "f205d765-6df1-41a7-8141-f6bf2e8dfee0",
+            "CODE": "8331-1",
+            "DESCRIPTION": "Oral temperature",
+            "VALUE": "38.0",
+            "UNITS": "Cel"
+          },
+          {
+            "DATE": "2016-06-24",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "301d2e23-6edb-4fbd-bcda-10e3758abe16",
+            "CODE": "8302-2",
+            "DESCRIPTION": "Body Height",
+            "VALUE": "163.33",
+            "UNITS": "cm"
+          },
+          {
+            "DATE": "2016-06-24",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "301d2e23-6edb-4fbd-bcda-10e3758abe16",
+            "CODE": "29463-7",
+            "DESCRIPTION": "Body Weight",
+            "VALUE": "126.47",
+            "UNITS": "kg"
+          },
+          {
+            "DATE": "2016-06-24",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "301d2e23-6edb-4fbd-bcda-10e3758abe16",
+            "CODE": "39156-5",
+            "DESCRIPTION": "Body Mass Index",
+            "VALUE": "47.41",
+            "UNITS": "kg/m2"
+          },
+          {
+            "DATE": "2016-06-24",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "301d2e23-6edb-4fbd-bcda-10e3758abe16",
+            "CODE": "8480-6",
+            "DESCRIPTION": "Systolic Blood Pressure",
+            "VALUE": "107.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2016-06-24",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "301d2e23-6edb-4fbd-bcda-10e3758abe16",
+            "CODE": "8462-4",
+            "DESCRIPTION": "Diastolic Blood Pressure",
+            "VALUE": "86.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2017-05-20",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "0d187a28-ca6a-4cf3-8e87-af2d7f4cc437",
+            "CODE": "8302-2",
+            "DESCRIPTION": "Body Height",
+            "VALUE": "163.33",
+            "UNITS": "cm"
+          },
+          {
+            "DATE": "2017-05-20",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "0d187a28-ca6a-4cf3-8e87-af2d7f4cc437",
+            "CODE": "29463-7",
+            "DESCRIPTION": "Body Weight",
+            "VALUE": "126.47",
+            "UNITS": "kg"
+          },
+          {
+            "DATE": "2017-05-20",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "0d187a28-ca6a-4cf3-8e87-af2d7f4cc437",
+            "CODE": "39156-5",
+            "DESCRIPTION": "Body Mass Index",
+            "VALUE": "47.41",
+            "UNITS": "kg/m2"
+          },
+          {
+            "DATE": "2017-05-20",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "0d187a28-ca6a-4cf3-8e87-af2d7f4cc437",
+            "CODE": "8480-6",
+            "DESCRIPTION": "Systolic Blood Pressure",
+            "VALUE": "100.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2017-05-20",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "0d187a28-ca6a-4cf3-8e87-af2d7f4cc437",
+            "CODE": "8462-4",
+            "DESCRIPTION": "Diastolic Blood Pressure",
+            "VALUE": "87.0",
+            "UNITS": "mmHg"
+          }
+        ],
+        "procedures": [
+          {
+            "DATE": "2013-09-14",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "86195ec5-e383-41ac-85a6-7fe64b2b4eaf",
+            "CODE": 73761001,
+            "DESCRIPTION": "Colonoscopy",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "DATE": "2016-10-08",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "9001d616-75ae-4c26-9956-e073255712bc",
+            "CODE": 288086009,
+            "DESCRIPTION": "Suture open wound",
+            "REASONCODE": 284549007,
+            "REASONDESCRIPTION": "Laceration of hand"
+          },
+          {
+            "DATE": "2017-05-20",
+            "PATIENT": "2075ecbd-ba76-4c78-993b-9344d42c3dbc",
+            "ENCOUNTER": "0d187a28-ca6a-4cf3-8e87-af2d7f4cc437",
+            "CODE": 428191000124101,
+            "DESCRIPTION": "Documentation of current medications",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          }
+        ]
+      }
+    },
+    {
+      "_index": "patients",
+      "_id": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+      "_score": 1,
+      "_source": {
+        "patient_info": {
+          "ID": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+          "BIRTHDATE": "1979-04-23",
+          "DEATHDATE": null,
+          "SSN": "999-47-4733",
+          "DRIVERS": "S99969444",
+          "PASSPORT": "X21383563X",
+          "PREFIX": "Mrs.",
+          "FIRST": "Deonte872",
+          "LAST": "Hartmann736",
+          "SUFFIX": null,
+          "MAIDEN": "Langworth985",
+          "MARITAL": "M",
+          "RACE": "black",
+          "ETHNICITY": "african",
+          "GENDER": "F",
+          "BIRTHPLACE": "Randolph MA US",
+          "ADDRESS": "23826 Hailie Springs Apt. 306 Quincy MA 02171 US"
+        },
+        "allergies": [
+          {
+            "START": "1980-10-28",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 417532002,
+            "DESCRIPTION": "Allergy to fish"
+          },
+          {
+            "START": "1980-10-28",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 424213003,
+            "DESCRIPTION": "Allergy to bee venom"
+          },
+          {
+            "START": "1980-10-28",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 300916003,
+            "DESCRIPTION": "Latex allergy"
+          }
+        ],
+        "careplans": [
+          {
+            "ID": "93ff19dd-b40f-4f3b-a42e-d7066d3c5afd",
+            "START": "1980-10-18",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 326051000000105,
+            "DESCRIPTION": "Self care",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "93ff19dd-b40f-4f3b-a42e-d7066d3c5afd",
+            "START": "1980-10-18",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 409002,
+            "DESCRIPTION": "Food allergy diet",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "93ff19dd-b40f-4f3b-a42e-d7066d3c5afd",
+            "START": "1980-10-18",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 58332002,
+            "DESCRIPTION": "Allergy education",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "054014aa-35e2-405f-bb55-d8b62a6b4821",
+            "START": "1980-10-28",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 326051000000105,
+            "DESCRIPTION": "Self care",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "054014aa-35e2-405f-bb55-d8b62a6b4821",
+            "START": "1980-10-28",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 58332002,
+            "DESCRIPTION": "Allergy education",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "a3f1d980-3652-43fe-a826-2d5130a61d3a",
+            "START": "1982-07-11",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 699728000,
+            "DESCRIPTION": "Asthma self management",
+            "REASONCODE": 233678006,
+            "REASONDESCRIPTION": "Childhood asthma"
+          },
+          {
+            "ID": "a3f1d980-3652-43fe-a826-2d5130a61d3a",
+            "START": "1982-07-11",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 710818004,
+            "DESCRIPTION": "Inhaled steroid therapy",
+            "REASONCODE": 233678006,
+            "REASONDESCRIPTION": "Childhood asthma"
+          },
+          {
+            "ID": "a3f1d980-3652-43fe-a826-2d5130a61d3a",
+            "START": "1982-07-11",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 708409001,
+            "DESCRIPTION": "Home nebulizer therapy",
+            "REASONCODE": 233678006,
+            "REASONDESCRIPTION": "Childhood asthma"
+          },
+          {
+            "ID": "a3f1d980-3652-43fe-a826-2d5130a61d3a",
+            "START": "1982-07-11",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 229298005,
+            "DESCRIPTION": "Breathing control",
+            "REASONCODE": 233678006,
+            "REASONDESCRIPTION": "Childhood asthma"
+          },
+          {
+            "ID": "c49ebddb-5606-4e12-857c-7bab5a32b546",
+            "START": "2013-04-12",
+            "STOP": "2013-06-24",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "12686dd3-eb57-43b6-9b74-4a146294db66",
+            "CODE": 47387005,
+            "DESCRIPTION": "Head injury rehabilitation",
+            "REASONCODE": 62564004,
+            "REASONDESCRIPTION": "Concussion with loss of consciousness"
+          },
+          {
+            "ID": "c49ebddb-5606-4e12-857c-7bab5a32b546",
+            "START": "2013-04-12",
+            "STOP": "2013-06-24",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "12686dd3-eb57-43b6-9b74-4a146294db66",
+            "CODE": 183051005,
+            "DESCRIPTION": "Recommendation to rest",
+            "REASONCODE": 62564004,
+            "REASONDESCRIPTION": "Concussion with loss of consciousness"
+          },
+          {
+            "ID": "c49ebddb-5606-4e12-857c-7bab5a32b546",
+            "START": "2013-04-12",
+            "STOP": "2013-06-24",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "12686dd3-eb57-43b6-9b74-4a146294db66",
+            "CODE": 226138001,
+            "DESCRIPTION": "Alcohol-free diet",
+            "REASONCODE": 62564004,
+            "REASONDESCRIPTION": "Concussion with loss of consciousness"
+          },
+          {
+            "ID": "04a437d1-0f71-4a37-88e0-52ba03e9f1d8",
+            "START": "2014-05-13",
+            "STOP": "2014-07-06",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "9cd8d1fc-acbd-4f66-8a40-8cd093029f62",
+            "CODE": 47387005,
+            "DESCRIPTION": "Head injury rehabilitation",
+            "REASONCODE": 62106007,
+            "REASONDESCRIPTION": "Concussion with no loss of consciousness"
+          },
+          {
+            "ID": "04a437d1-0f71-4a37-88e0-52ba03e9f1d8",
+            "START": "2014-05-13",
+            "STOP": "2014-07-06",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "9cd8d1fc-acbd-4f66-8a40-8cd093029f62",
+            "CODE": 183051005,
+            "DESCRIPTION": "Recommendation to rest",
+            "REASONCODE": 62106007,
+            "REASONDESCRIPTION": "Concussion with no loss of consciousness"
+          },
+          {
+            "ID": "04a437d1-0f71-4a37-88e0-52ba03e9f1d8",
+            "START": "2014-05-13",
+            "STOP": "2014-07-06",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "9cd8d1fc-acbd-4f66-8a40-8cd093029f62",
+            "CODE": 226138001,
+            "DESCRIPTION": "Alcohol-free diet",
+            "REASONCODE": 62106007,
+            "REASONDESCRIPTION": "Concussion with no loss of consciousness"
+          },
+          {
+            "ID": "8a9a774e-bc06-4b9e-ad5f-8bc6ecaeccbc",
+            "START": "2016-12-08",
+            "STOP": "2016-12-15",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "b6cfd012-3544-4fef-bacd-2412ad3cebe9",
+            "CODE": 869761000000107,
+            "DESCRIPTION": "Urinary tract infection care",
+            "REASONCODE": 38822007,
+            "REASONDESCRIPTION": "Cystitis"
+          },
+          {
+            "ID": "8a9a774e-bc06-4b9e-ad5f-8bc6ecaeccbc",
+            "START": "2016-12-08",
+            "STOP": "2016-12-15",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "b6cfd012-3544-4fef-bacd-2412ad3cebe9",
+            "CODE": 223472008,
+            "DESCRIPTION": "Discussion about hygiene",
+            "REASONCODE": 38822007,
+            "REASONDESCRIPTION": "Cystitis"
+          },
+          {
+            "ID": "8a9a774e-bc06-4b9e-ad5f-8bc6ecaeccbc",
+            "START": "2016-12-08",
+            "STOP": "2016-12-15",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "b6cfd012-3544-4fef-bacd-2412ad3cebe9",
+            "CODE": 171245007,
+            "DESCRIPTION": "Urine screening",
+            "REASONCODE": 38822007,
+            "REASONDESCRIPTION": "Cystitis"
+          }
+        ],
+        "conditions": [
+          {
+            "START": "1998-12-09",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 195967001,
+            "DESCRIPTION": "Asthma"
+          },
+          {
+            "START": "2013-04-12",
+            "STOP": "2013-06-24",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "12686dd3-eb57-43b6-9b74-4a146294db66",
+            "CODE": 62564004,
+            "DESCRIPTION": "Concussion with loss of consciousness"
+          },
+          {
+            "START": "2014-05-13",
+            "STOP": "2014-07-06",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "9cd8d1fc-acbd-4f66-8a40-8cd093029f62",
+            "CODE": 62106007,
+            "DESCRIPTION": "Concussion with no loss of consciousness"
+          },
+          {
+            "START": "2016-12-08",
+            "STOP": "2016-12-15",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "b6cfd012-3544-4fef-bacd-2412ad3cebe9",
+            "CODE": 38822007,
+            "DESCRIPTION": "Cystitis"
+          }
+        ],
+        "encounters": [
+          {
+            "ID": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 185349003,
+            "DESCRIPTION": "Outpatient Encounter",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "efc876fb-0149-4081-b559-3e1862d1017e",
+            "DATE": "2010-12-09",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 394701000,
+            "DESCRIPTION": "Asthma follow-up",
+            "REASONCODE": 195967001,
+            "REASONDESCRIPTION": "Asthma"
+          },
+          {
+            "ID": "12686dd3-eb57-43b6-9b74-4a146294db66",
+            "DATE": "2013-04-12",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 50849002,
+            "DESCRIPTION": "Emergency room admission",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "0316e5b5-1796-43ef-9283-6909342257ed",
+            "DATE": "2013-06-24",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 185349003,
+            "DESCRIPTION": "Encounter for 'check-up'",
+            "REASONCODE": 62564004,
+            "REASONDESCRIPTION": "Concussion with loss of consciousness"
+          },
+          {
+            "ID": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 185349003,
+            "DESCRIPTION": "Outpatient Encounter",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "9cd8d1fc-acbd-4f66-8a40-8cd093029f62",
+            "DATE": "2014-05-13",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 50849002,
+            "DESCRIPTION": "Emergency room admission",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "40f57c81-3461-4a43-88bb-b1827fbceee5",
+            "DATE": "2014-07-06",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 185349003,
+            "DESCRIPTION": "Encounter for 'check-up'",
+            "REASONCODE": 62106007,
+            "REASONDESCRIPTION": "Concussion with no loss of consciousness"
+          },
+          {
+            "ID": "20ada8d6-be11-46df-8c44-a02dab868551",
+            "DATE": "2014-12-09",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 394701000,
+            "DESCRIPTION": "Asthma follow-up",
+            "REASONCODE": 195967001,
+            "REASONDESCRIPTION": "Asthma"
+          },
+          {
+            "ID": "6b09e93b-35f5-4db4-9a9b-074ba348c65f",
+            "DATE": "2014-12-29",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 185347001,
+            "DESCRIPTION": "Encounter for problem",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "ID": "b6cfd012-3544-4fef-bacd-2412ad3cebe9",
+            "DATE": "2016-12-08",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "CODE": 185345009,
+            "DESCRIPTION": "Encounter for symptom",
+            "REASONCODE": 38822007,
+            "REASONDESCRIPTION": "Cystitis"
+          }
+        ],
+        "immunizations": [
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 140,
+            "DESCRIPTION": "Influenza  seasonal  injectable  preservative free"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 113,
+            "DESCRIPTION": "Td (adult) preservative free"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": 140,
+            "DESCRIPTION": "Influenza  seasonal  injectable  preservative free"
+          }
+        ],
+        "medications": [
+          {
+            "START": "1980-10-28",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 1049630,
+            "DESCRIPTION": "diphenhydrAMINE Hydrochloride 25 MG Oral Tablet",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          },
+          {
+            "START": "1982-07-11",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 895994,
+            "DESCRIPTION": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+            "REASONCODE": 233678006,
+            "REASONDESCRIPTION": "Childhood asthma"
+          },
+          {
+            "START": "1982-07-11",
+            "STOP": null,
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 745679,
+            "DESCRIPTION": "200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+            "REASONCODE": 233678006,
+            "REASONDESCRIPTION": "Childhood asthma"
+          },
+          {
+            "START": "2016-12-08",
+            "STOP": "2016-12-15",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "b6cfd012-3544-4fef-bacd-2412ad3cebe9",
+            "CODE": 568530,
+            "DESCRIPTION": "Nitrofurantoin 5 MG/ML [Furadantin]",
+            "REASONCODE": 38822007,
+            "REASONDESCRIPTION": "Cystitis"
+          },
+          {
+            "START": "2016-12-08",
+            "STOP": "2016-12-15",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "b6cfd012-3544-4fef-bacd-2412ad3cebe9",
+            "CODE": 1094108,
+            "DESCRIPTION": "Phenazopyridine hydrochloride 100 MG [Pyridium]",
+            "REASONCODE": 38822007,
+            "REASONDESCRIPTION": "Cystitis"
+          }
+        ],
+        "observations": [
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "8302-2",
+            "DESCRIPTION": "Body Height",
+            "VALUE": "164.09",
+            "UNITS": "cm"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "29463-7",
+            "DESCRIPTION": "Body Weight",
+            "VALUE": "105.71",
+            "UNITS": "kg"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "39156-5",
+            "DESCRIPTION": "Body Mass Index",
+            "VALUE": "39.26",
+            "UNITS": "kg/m2"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "8480-6",
+            "DESCRIPTION": "Systolic Blood Pressure",
+            "VALUE": "110.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "8462-4",
+            "DESCRIPTION": "Diastolic Blood Pressure",
+            "VALUE": "85.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "2093-3",
+            "DESCRIPTION": "Total Cholesterol",
+            "VALUE": "164.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "2571-8",
+            "DESCRIPTION": "Triglycerides",
+            "VALUE": "138.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "18262-6",
+            "DESCRIPTION": "Low Density Lipoprotein Cholesterol",
+            "VALUE": "57.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": "2085-9",
+            "DESCRIPTION": "High Density Lipoprotein Cholesterol",
+            "VALUE": "79.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "8302-2",
+            "DESCRIPTION": "Body Height",
+            "VALUE": "164.09",
+            "UNITS": "cm"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "29463-7",
+            "DESCRIPTION": "Body Weight",
+            "VALUE": "110.8",
+            "UNITS": "kg"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "39156-5",
+            "DESCRIPTION": "Body Mass Index",
+            "VALUE": "41.15",
+            "UNITS": "kg/m2"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "8480-6",
+            "DESCRIPTION": "Systolic Blood Pressure",
+            "VALUE": "115.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "8462-4",
+            "DESCRIPTION": "Diastolic Blood Pressure",
+            "VALUE": "87.0",
+            "UNITS": "mmHg"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "2093-3",
+            "DESCRIPTION": "Total Cholesterol",
+            "VALUE": "181.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "2571-8",
+            "DESCRIPTION": "Triglycerides",
+            "VALUE": "138.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "18262-6",
+            "DESCRIPTION": "Low Density Lipoprotein Cholesterol",
+            "VALUE": "88.0",
+            "UNITS": "mg/dL"
+          },
+          {
+            "DATE": "2013-10-30",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "16fc4d18-47f9-4158-a361-58c397f56601",
+            "CODE": "2085-9",
+            "DESCRIPTION": "High Density Lipoprotein Cholesterol",
+            "VALUE": "65.0",
+            "UNITS": "mg/dL"
+          }
+        ],
+        "procedures": [
+          {
+            "DATE": "2010-10-18",
+            "PATIENT": "b8645570-6d9f-4de1-aed3-c7b3bf1eb614",
+            "ENCOUNTER": "86f15db3-0c76-4a04-9814-84d19f3947a2",
+            "CODE": 428191000124101,
+            "DESCRIPTION": "Documentation of current medications",
+            "REASONCODE": null,
+            "REASONDESCRIPTION": null
+          }
+        ]
+      }
+    }
+]

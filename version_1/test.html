@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat and Summary Interface</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; }
+        #summary { border: 1px solid #ccc; padding: 10px; width: 45%; height: 400px; overflow-y: scroll; }
+        #chat-container { width: 45%; margin-left: 5%; }
+        #chat { border: 1px solid #ccc; padding: 10px; width: 100%; height: 400px; overflow-y: scroll; }
+        #input, #patient_id, #category { width: 100%; margin-top: 10px; }
+        .message { margin: 5px 0; }
+        .bot-message { color: blue; }
+        .user-message { color: green; }
+    </style>
+</head>
+<body>
+    <div id="summary">
+        <h2>Patient Summary</h2>
+        <input type="text" id="patient_id" placeholder="Enter patient ID">
+        <input type="text" id="category" placeholder="Enter category (optional)">
+        <button onclick="requestSummary()">Get Summary</button>
+        <div id="summary-content"></div>
+    </div>
+    <div id="chat-container">
+        <h2>Chat</h2>
+        <div id="chat"></div>
+        <input type="text" id="input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        let chatWebSocket = new WebSocket("ws://localhost:8000/ws");
+        let summaryWebSocket = new WebSocket("ws://localhost:8000/ws_generate_summary");
+        let currentBotMessage = null;
+        let currentSummaryMessage = '';
+
+        chatWebSocket.onmessage = function(event) {
+            let chat = document.getElementById("chat");
+
+            if (currentBotMessage) {
+                currentBotMessage.textContent += event.data;
+            } else {
+                currentBotMessage = document.createElement("div");
+                currentBotMessage.textContent = "Bot: " + event.data;
+                currentBotMessage.classList.add("message", "bot-message");
+                chat.appendChild(currentBotMessage);
+            }
+
+            chat.scrollTop = chat.scrollHeight;  // Scroll to the bottom
+        };
+
+        chatWebSocket.onclose = function(event) {
+            console.log('WebSocket closed:', event);
+            // Mark the bot message as complete when the connection closes
+            if (currentBotMessage) {
+                currentBotMessage = null;
+            }
+        };
+
+        summaryWebSocket.onmessage = function(event) {
+            let summaryContent = document.getElementById("summary-content");
+
+            currentSummaryMessage += event.data;
+
+            summaryContent.innerHTML = currentSummaryMessage.replace(/\n/g, '<br/>');
+            summaryContent.scrollTop = summaryContent.scrollHeight;  // Scroll to the bottom
+        };
+
+        summaryWebSocket.onclose = function(event) {
+            console.log('WebSocket closed:', event);
+            if (currentSummaryMessage) {
+                currentSummaryMessage = '';
+            }
+        };
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function sendMessage() {
+            let input = document.getElementById("input");
+            let message = input.value;
+            if (message) {
+                let chat = document.getElementById("chat");
+                let userMessage = document.createElement("div");
+                userMessage.textContent = "You: " + message;
+                userMessage.classList.add("message", "user-message");
+                chat.appendChild(userMessage);
+                chat.scrollTop = chat.scrollHeight;  // Scroll to the bottom
+                chatWebSocket.send(message);
+                input.value = "";
+
+                // Reset the current bot message
+                currentBotMessage = null;
+            }
+        }
+
+        function requestSummary() {
+            let patientId = document.getElementById("patient_id").value;
+            let category = document.getElementById("category").value;
+            let data = category ? `${patientId}/${category}` : patientId;
+
+            if (!summaryWebSocket || summaryWebSocket.readyState !== WebSocket.OPEN) {
+                summaryWebSocket = new WebSocket("ws://localhost:8000/ws_generate_summary");
+            }
+
+            summaryWebSocket.send(data);
+            // Reset the current summary message
+            currentSummaryMessage = '';
+        }
+
+        chatWebSocket.onerror = function(event) {
+            console.error('WebSocket error:', event);
+        };
+
+        summaryWebSocket.onerror = function(event) {
+            console.error('WebSocket error:', event);
+        };
+    </script>
+</body>
+</html>
